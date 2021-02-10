@@ -24,7 +24,7 @@ else:
     sdw_exists = sdw
 
 # cast coordinates to projected system (meters)
-sdw_exists = sdw_exists.to_crs("EPSG:32633")
+sdw_exists = sdw_exists.to_crs("EPSG:4326")
 
 
 # check if street name is provided in dataset
